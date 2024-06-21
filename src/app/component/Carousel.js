@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Slider1 from '../../../public/image 1.png'
+import Slider1 from '../../../public/image 1.jpg'
 import Slider2 from '../../../public/image 2.jpg'
 
 
@@ -9,10 +9,10 @@ export default function Carousel(){
        <div id="carouselExample" className="carousel slide">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <Image src={Slider1} className="d-block w-100" width={100} height={700} alt="..." />
+      <Image src={Slider1} className="d-block w-100" width={2000} height={740} alt="..." />
     </div>
     <div className="carousel-item">
-      <Image src={Slider2} className="d-block w-100" width={100} height={700} alt="..." />
+      <Image src={Slider2} className="d-block w-100" width={2000} height={740} alt="..." />
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
