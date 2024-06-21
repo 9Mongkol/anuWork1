@@ -1,4 +1,5 @@
 import Link from "next/link"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function service() {
   return (
@@ -8,8 +9,8 @@ export default function service() {
     <center>
     <Link href="/">Home</Link> |
     <Link href="/about">About</Link> |
-    <Link href="/Service">Service</Link> | 
-    <Link href="/Contact">Contact</Link> |
+    <Link href="/service">Service</Link> | 
+    <Link href="/contact">Contact</Link> |
     </center>
     </>
   );

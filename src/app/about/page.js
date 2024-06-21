@@ -1,16 +1,9 @@
 import Link from "next/link"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function about() {
   return (
     <>
-    <h1><center>Home Page</center></h1>
-    <br></br>
-    <center>
-    <Link href="/">Home</Link> |
-    <Link href="/about">About</Link> |
-    <Link href="/Service">Service</Link> | 
-    <Link href="/Contact">Contact</Link> |
-    </center>
     </>
   );
 }
